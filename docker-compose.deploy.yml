@@ -1,31 +1,37 @@
 version: '3'
 
 services:
+  nginx:
+    image: nginx:latest
+    restart: always
+    ports:
+      - '80:80'
+      - '443:443'
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - media-files:/media-files
+      - static-files:/static-files
+      - /etc/letsencrypt:/etc/letsencrypt
+
   backend:
     image: registry.gitlab.propulsion-home.ch/markus-giger/w7/docker-motion:latest
     restart: always
     env_file:
-      - ./envs/dev.env
-    command: 'sh /scripts/dev.sh'
-
+      - ./envs/prod.env
+    command: 'sh /scripts/run.sh'
     #these volumes pass the data from your computer to the docker container
     volumes:
-      - ./backend:/backend
       - media-files:/media-files
       - static-files:/static-files
-    ports:
-      - '8000:8000'
     depends_on:
       - postgres
 
   postgres:
     image: postgres:11
-    ports:
-      - '5432:5432'
     volumes:
-    - postgres:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
     env_file:
-      - ./envs/dev.env
+      - ./envs/prod.env
 
 #these volumes create a directory in your computer so that no matter what, they will not be deleted
 volumes:
