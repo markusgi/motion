@@ -1,0 +1,11 @@
+name: motion_docker
+dependencies:
+  - python=3.8
+  - psycopg2
+  - pip
+  - pip:
+      - django==3.1.2
+      - djangorestframework==3.11.1
+      - djangorestframework-simplejwt==4.4.0
+      - drf-yasg==1.17.1
+      - gunicorn
