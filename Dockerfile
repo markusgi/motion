@@ -15,7 +15,7 @@ RUN /opt/conda/bin/conda env create -f /backend/requirements.yml
 
 ENV PATH /opt/conda/envs/motion_docker/bin:$PATH
 
-RUN echo "source activate motion_docker" >~/.bashrc
+RUN echo "source activate backend" >~/.bashrc
 
 # create a scripts folder
 RUN mkdir -p /scripts
