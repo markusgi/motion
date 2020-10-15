@@ -15,6 +15,7 @@ services:
       - static-files:/static-files
     ports:
       - '8000:8000'
+      - '4777:22'
     depends_on:
       - postgres
 

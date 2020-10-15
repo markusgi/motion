@@ -49,7 +49,7 @@ urlpatterns = [
     path('backend/api/social/followers/', include('apps.users.urls')),
     path('backend/api/social/posts/', include('apps.posts.urls')),
     path('backend/api/auth/', include(authurls)),
-    path('api/docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('backend/api/docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]
 
 if settings.DEBUG:
