@@ -8,5 +8,5 @@ urlpatterns = [
     path('toggle-like/<int:id>/', ToggleFavoriteView.as_view()),
     path('likes/', ShowLikedPosts.as_view()),
     path('following/', ShowPostsOfFollowing.as_view()),
-    path('user/<int:author_id>/', ShowPostOfGivenUser.as_view()),
+    path('user/<int:pk>/', ShowPostOfGivenUser.as_view()),
 ]

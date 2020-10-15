@@ -68,14 +68,14 @@ class ShowLikedPosts(ListCreateAPIView):
 class ShowPostOfGivenUser(ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
-    lookup_field = 'author_id'
+    lookup_field = 'pk'
     permission_classes = []
 
     class Meta:
         ordering = ["id"]
 
     def get(self, request, *args, **kwargs):
-        queryset = self.get_queryset().filter(author=kwargs['author_id'])
+        queryset = self.get_queryset().filter(author=kwargs['pk'])
         detailed_serializer = PostSmallSerializer(queryset, many=True)
         return Response(detailed_serializer.data)
 
