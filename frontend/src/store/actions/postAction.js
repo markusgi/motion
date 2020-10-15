@@ -2,7 +2,7 @@
     const { token } = localStorage;
     const preContent = {content};
     const payload = preContent.content;
-    const url = "https://motion.propulsion-home.ch/backend/api/social/posts/"
+    const url = "https://docker-markus.propulsion-home.ch/backend/api/social/posts/"
     const config = {
         method: "POST",
         headers: new Headers ({

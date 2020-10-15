@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/feedAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/feedAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/postAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/postAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/userAction.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
-      <workItem from="1602745212105" duration="19976000" />
+      <workItem from="1602745212105" duration="20771000" />
     </task>
     <servers />
   </component>

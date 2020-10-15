@@ -29,7 +29,7 @@ export const SignIn = () => {
         };
         console.log(config)
         //then do the fetch
-        fetch("https://motion.propulsion-home.ch/backend/api/auth/token/", config)
+        fetch("https://docker-markus.propulsion-learn.ch/backend/api/auth/token/", config)
             .then((Response) => Response.json())
             .then((data) => {
                 dispatch(authAction(data.access));
