@@ -1,7 +1,5 @@
 from django.contrib.auth import get_user_model
-import json
-from django.shortcuts import render
-from rest_framework import status
+
 from rest_framework.generics import ListCreateAPIView, GenericAPIView
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
@@ -11,6 +9,11 @@ from apps.users.serializers import UserSerializer, UserSerializerSmall
 
 User = get_user_model()
 
+class ListLogedInUser(ListCreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    permission_classes = []
+    lookup_field = 'id'
 
 class ListCreateUserAPIView(ListCreateAPIView):
     queryset = User.objects.all()

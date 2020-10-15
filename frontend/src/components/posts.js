@@ -32,7 +32,6 @@ const Posts = () => {
     }, []);
 
 
-
     return (
         <ContentPost>
             {showNewPost ? 
