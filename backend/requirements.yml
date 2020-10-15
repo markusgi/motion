@@ -1,4 +1,4 @@
-name: motion_docker
+name: backend
 dependencies:
   - python=3.8
   - psycopg2
