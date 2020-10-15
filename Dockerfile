@@ -7,7 +7,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -qqy \
     bzip2 \
     graphviz
 
-#RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && apt-get install -y nodejs && apt-get install -y npm
+RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && apt-get install -y nodejs && apt-get install -y npm
 
 RUN mkdir -p /backend
 
@@ -30,11 +30,12 @@ COPY ./backend /backend
 RUN mkdir -p /frontend
 RUN mkdir -p /frontend_tmp
 
-#WORKDIR frontend_tmp
+WORKDIR frontend_tmp
 
-#COPY ./frontend/package.json /frontend_tmp/
-#RUN npm i
-#COPY ./frontend /frontend_tmp
-#RUN npm run build
+COPY ./frontend/package.json /frontend_tmp/
+COPY ./frontend/package-lock.json /frontend_tmp/
+RUN npm i
+COPY ./frontend /frontend_tmp
+RUN npm run build
 
 WORKDIR /backend

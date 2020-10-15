@@ -8,6 +8,7 @@ services:
       - '80:80'
       - '443:443'
     volumes:
+      - frontend:/frontend
       - ./nginx:/etc/nginx/conf.d
       - media-files:/media-files
       - static-files:/static-files
@@ -21,6 +22,7 @@ services:
     command: 'sh /scripts/run.sh'
     #these volumes pass the data from your computer to the docker container
     volumes:
+      - frontend:/frontend/build
       - media-files:/media-files
       - static-files:/static-files
     depends_on:
@@ -38,3 +40,4 @@ volumes:
   media-files:
   static-files:
   postgres:
+  frontend:
