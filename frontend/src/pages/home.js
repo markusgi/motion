@@ -30,7 +30,7 @@ const Home = () => {
     //fetch user data
     useEffect(() => {
         const getData = async () => {
-            const data = await dispatch(feedAction());
+            const data = await dispatch(userAction());
             console.log("in da fetch user data effect")
             console.log(data);
             setUser();

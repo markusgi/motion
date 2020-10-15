@@ -1,6 +1,6 @@
 export const userAction = () => async (dispatch, getState) => {
     const { token } = localStorage;
-    const url = "https://docker-markus.propulsion-home.ch/backend/api/users/";
+    const url = "https://docker-markus.propulsion-home.ch/backend/api/users/1/";
     const config = {
         method: "GET",
         headers: new Headers ({
