@@ -1,0 +1,27 @@
+<svg width="42" height="33" viewBox="0 0 42 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.01 30.01C10.01 31.11 10.9 32 12 32C13.1 32 13.99 31.11 13.99 30.01H10.01ZM18.88 25.82V20C18.88 16.75 16.63 14.03 13.59 13.31V12.59C13.59 11.71 12.88 11 12 11C11.12 11 10.41 11.71 10.41 12.59V13.31C7.37 14.03 5.12 16.75 5.12 20V25.82L3 27.94V29H21V27.94L18.88 25.82Z" fill="black"/>
+<g clip-path="url(#clip0)">
+<g filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.5 21C37.299 21 42 16.299 42 10.5C42 4.70101 37.299 0 31.5 0C25.701 0 21 4.70101 21 10.5C21 16.299 25.701 21 31.5 21Z" fill="url(#paint0_linear)"/>
+</g>
+<path d="M29.8516 13.9463V13.0479C30.5417 13.3213 31.0853 13.458 31.4824 13.458C31.9414 13.458 32.3141 13.3245 32.6006 13.0576C32.8903 12.7874 33.0352 12.4391 33.0352 12.0127C33.0352 10.9971 32.3239 10.4893 30.9014 10.4893H30.5205V9.83984L30.8574 9.83496C32.1921 9.83496 32.8594 9.36458 32.8594 8.42383C32.8594 7.6849 32.4199 7.31543 31.541 7.31543C31.0592 7.31543 30.5286 7.45052 29.9492 7.7207V6.88086C30.5189 6.6888 31.0723 6.59277 31.6094 6.59277C33.0872 6.59277 33.8262 7.15104 33.8262 8.26758C33.8262 9.11719 33.3232 9.72266 32.3174 10.084C33.4827 10.3542 34.0654 10.9922 34.0654 11.998C34.0654 12.6784 33.8408 13.2122 33.3916 13.5996C32.9424 13.987 32.3255 14.1807 31.541 14.1807C31.0951 14.1807 30.5319 14.1025 29.8516 13.9463Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-9" y="-20" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="10"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="11.2232" y1="11.9465" x2="32.2232" y2="31.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C468FF"/>
+<stop offset="1" stop-color="#6E91F6"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="21" height="21" fill="white" transform="translate(21)"/>
+</clipPath>
+</defs>
+</svg>
