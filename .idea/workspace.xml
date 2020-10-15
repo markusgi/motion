@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
-      <workItem from="1602745212105" duration="14151000" />
+      <workItem from="1602745212105" duration="14519000" />
     </task>
     <servers />
   </component>
