@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="" />
+    <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/feedAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/feedAction.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../W4/D1/motion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +40,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marku\Desktop\Markus_Giger\W7\docker-motion\frontend" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marku\Desktop\Markus_Giger\W7\docker-motion\backend" />
       <recent name="C:\Users\marku\Desktop\Markus_Giger\W7\docker-motion\backend\backend" />
@@ -106,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
-      <workItem from="1602745212105" duration="19107000" />
+      <workItem from="1602745212105" duration="19976000" />
     </task>
     <servers />
   </component>

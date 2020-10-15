@@ -1,6 +1,6 @@
  export const feedAction = () => async (dispatch, getState) => {
     const { token } = localStorage;
-    const url = "https://motion.propulsion-home.ch/backend/api/social/posts/"
+    const url = "https://docker-markus.propulsion-learn.ch/backend/api/social/posts/"
     const config = {
         method: "GET",
         headers: new Headers ({
