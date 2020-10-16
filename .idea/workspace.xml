@@ -12,9 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/apps/posts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/posts/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +113,7 @@
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
       <workItem from="1602745212105" duration="22894000" />
-      <workItem from="1602831981165" duration="4820000" />
+      <workItem from="1602831981165" duration="5480000" />
     </task>
     <servers />
   </component>

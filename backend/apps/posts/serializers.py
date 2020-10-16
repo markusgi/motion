@@ -5,6 +5,10 @@ from apps.posts.models import Post
 
 User = get_user_model()
 
+class UserAuthorSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ["username"]
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -27,6 +31,8 @@ class PostSerializer(serializers.ModelSerializer):
 
 
 class PostSmallSerializer(serializers.ModelSerializer):
+    user = UserAuthorSerializer
+
     class Meta:
         model = Post
-        fields = ["id", "title", "author"]
+        fields = ["id", "title", "author", "text_content"]
