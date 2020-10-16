@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/apps/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,7 @@
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
       <workItem from="1602745212105" duration="22894000" />
-      <workItem from="1602831981165" duration="7396000" />
+      <workItem from="1602831981165" duration="10217000" />
     </task>
     <servers />
   </component>
@@ -138,10 +139,10 @@
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="818" y="-626" key="#Path_mapping/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602749960169" />
-    <state x="709" y="-882" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602840797884">
+    <state x="709" y="-882" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602847993262">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="709" y="-882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840797884" />
+    <state x="709" y="-882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602847993262" />
     <state x="741" y="-736" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602750656303">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
