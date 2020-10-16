@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/posts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/posts/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
@@ -113,7 +114,7 @@
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
       <workItem from="1602745212105" duration="22894000" />
-      <workItem from="1602831981165" duration="5480000" />
+      <workItem from="1602831981165" duration="7396000" />
     </task>
     <servers />
   </component>
@@ -137,10 +138,10 @@
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="818" y="-626" key="#Path_mapping/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602749960169" />
-    <state x="433" y="-883" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602763938349">
+    <state x="709" y="-882" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602840797884">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="433" y="-883" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602763938349" />
+    <state x="709" y="-882" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840797884" />
     <state x="741" y="-736" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602750656303">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
@@ -149,28 +150,32 @@
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="766" y="-756" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602753979217" />
-    <state width="1511" height="267" key="GridCell.Tab.0.bottom" timestamp="1602774644027">
+    <state width="1597" height="267" key="GridCell.Tab.0.bottom" timestamp="1602840678367">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1511" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602774644027" />
-    <state width="1511" height="267" key="GridCell.Tab.0.center" timestamp="1602774644027">
+    <state width="1597" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840678367" />
+    <state width="1597" height="267" key="GridCell.Tab.0.center" timestamp="1602840678367">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1511" height="267" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602774644027" />
-    <state width="1511" height="267" key="GridCell.Tab.0.left" timestamp="1602774644027">
+    <state width="1597" height="267" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840678367" />
+    <state width="1597" height="267" key="GridCell.Tab.0.left" timestamp="1602840678367">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1511" height="267" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602774644027" />
-    <state width="1511" height="267" key="GridCell.Tab.0.right" timestamp="1602774644027">
+    <state width="1597" height="267" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840678367" />
+    <state width="1597" height="267" key="GridCell.Tab.0.right" timestamp="1602840678367">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1511" height="267" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602774644027" />
+    <state width="1597" height="267" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840678367" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602840412195">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840412195" />
     <state x="480" y="-893" key="SettingsEditor" timestamp="1602763894071">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="480" y="-893" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602763894071" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/docker_motion$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1602763941310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/docker_motion$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1602840668854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>
