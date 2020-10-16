@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # third party
     'rest_framework',
     'drf_yasg',
+    'corsheaders',
 
     # own
     'apps.users',
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -152,3 +154,5 @@ STATIC_ROOT = '/static-files/'
 STATIC_URL = '/static-files/'
 MEDIA_ROOT = '/media-files/'
 MEDIA_URL = '/media-files/'
+
+CORS_ALLOW_ALL_ORIGINS

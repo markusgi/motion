@@ -10,3 +10,4 @@ dependencies:
       - drf-yasg==1.17.1
       - gunicorn
       - flake8
+      - django-cors-headers
