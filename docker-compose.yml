@@ -9,6 +9,7 @@ services:
     command: 'sh /scripts/dev.sh'
     #these volumes pass the data from your computer to the docker container
     volumes:
+      - frontend:/frontend
       - ./backend:/backend
       - ./media-files:/media-files
       - ./static-files:/static-files

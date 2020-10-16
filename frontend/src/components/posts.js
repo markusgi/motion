@@ -15,12 +15,28 @@ import share from '../assets/icons/share.svg'
 import NewPostModal from './newPostModal'
 
 import { feedAction } from '../store/actions/feedAction';
+import {userAction} from "../store/actions/userAction";
+
 
 const Posts = () => {
+    const [ user, setUser ] = useState([]);
     const [ showNewPost, setShowNewPost] = useState(false);
     const [ post, setPosts ] = useState([]);
     const dispatch = useDispatch();
     console.log(post)
+
+
+
+    useEffect(() => {
+        const getData = async () => {
+            const data = await dispatch(userAction());
+            console.log("in da fetch user data effect")
+            console.log(data);
+            setUser();
+        }
+        getData();
+    }, [user]);
+
 
     useEffect(() => {
         const getData = async () => {
@@ -30,6 +46,7 @@ const Posts = () => {
         }
         getData();
     }, []);
+
 
 
     return (
@@ -57,16 +74,12 @@ const Posts = () => {
                         <PostHeader>
                             <Icon src={me} alt=""></Icon>
                             <section>
-                                <p>{sel.user.first_name}</p>
+                                <p>{sel.author}</p>
                                 <p style={{opacity: "0.5"}}>{sel.created}</p>
                             </section>
                         </PostHeader>
                         <PostContentImages>
-                            <p>{sel.content}</p>
-                                                
-                            <section>
-                                <img src={sel.images[0]} alt=""></img>
-                            </section>
+                            <p>{sel.text_content}</p>
 
                         </PostContentImages>
                         
@@ -80,7 +93,7 @@ const Posts = () => {
                                 <p>Share</p>
                             </section>
                             <section style={{marginLeft: "278px", opacity: "0.5"}}>
-                                <p>{sel.amount_of_likes} Likes</p>
+                                <p>{sel.likes_counter} Likes</p>
                             </section>
                         </PostFooter>
                     </PostContainer>

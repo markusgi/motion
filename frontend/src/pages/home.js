@@ -10,14 +10,10 @@ import search from '../assets/icons/search.svg'
 import NavBar from '../components/navBar';
 import Posts from '../components/posts.js';
 
-import { userAction } from '../store/actions/userAction.js';
-
 const Home = () => {
-    const [ user, setUser ] = useState([]);
     const token = localStorage.token;
     const history = useHistory();
     const dispatch = useDispatch();
-    console.log(user)
     
     useEffect(() => {
         if (!token) {
@@ -28,15 +24,7 @@ const Home = () => {
     }, [token]);
 
     //fetch user data
-    useEffect(() => {
-        const getData = async () => {
-            const data = await dispatch(userAction());
-            console.log("in da fetch user data effect")
-            console.log(data);
-            setUser();
-        }
-        getData();
-    }, [user]);
+
 
     return (
         <HomeWrapper>
