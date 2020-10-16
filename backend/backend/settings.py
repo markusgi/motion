@@ -155,4 +155,4 @@ STATIC_URL = '/static-files/'
 MEDIA_ROOT = '/media-files/'
 MEDIA_URL = '/media-files/'
 
-CORS_ALLOW_ALL_ORIGINS
+CORS_ALLOW_ALL_ORIGINS = True
