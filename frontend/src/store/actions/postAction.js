@@ -11,7 +11,7 @@ export const postAction = (content) => async (dispatch, getState) => {
             "Content-Type": "application/json",
             "Authorization": `Bearer ${token}`
         }),
-        body: JSON.stringify({content})
+        body: JSON.stringify({text_content: content})
     };
     console.log(config)
     const response = await fetch(url, config);

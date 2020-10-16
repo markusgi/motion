@@ -2,7 +2,7 @@ import baseUrl from "../../helper/dev";
 
 export const userAction = () => async (dispatch, getState) => {
     const { token } = localStorage;
-    const url = `${baseUrl}backend/api/users/1/`;
+    const url = `${baseUrl}backend/api/users/me/`;
     const config = {
         method: "GET",
         headers: new Headers ({

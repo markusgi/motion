@@ -24,6 +24,7 @@ const Posts = () => {
     const [ post, setPosts ] = useState([]);
     const dispatch = useDispatch();
     console.log(post)
+    console.log(user)
 
 
 

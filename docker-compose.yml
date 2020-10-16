@@ -2,7 +2,7 @@ version: '3'
 
 services:
   backend:
-    image: registry.gitlab.propulsion-home.ch/markus-giger/w7/docker-motion:latest
+    image: local:latest
     restart: always
     env_file:
       - ./envs/dev.env

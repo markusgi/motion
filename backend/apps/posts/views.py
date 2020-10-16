@@ -93,3 +93,14 @@ class ShowPostsOfFollowing(ListCreateAPIView):
         queryset = self.get_queryset().filter(author__in=array)
         detailed_serializer = PostSmallSerializer(queryset, many=True)
         return Response(detailed_serializer.data)
+
+
+class ShowPostOfMe(ListCreateAPIView):
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer
+    permission_classes = []
+
+    def get(self, request, *args, **kwargs):
+        queryset = self.get_queryset().filter(author=request.user)
+        detailed_serializer = PostSmallSerializer(queryset, many=True)
+        return Response(detailed_serializer.data)

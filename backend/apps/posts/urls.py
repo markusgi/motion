@@ -1,6 +1,6 @@
 from django.urls import path
 
-from apps.posts.views import ListCreatePostAPIView, ShowPostsOfFollowing, RetrieveUpdateDestroyPostAPIView, ToggleFavoriteView, ShowLikedPosts, ShowPostOfGivenUser
+from apps.posts.views import ListCreatePostAPIView, ShowPostsOfFollowing, ShowPostOfMe, RetrieveUpdateDestroyPostAPIView, ToggleFavoriteView, ShowLikedPosts, ShowPostOfGivenUser
 
 urlpatterns = [
     path('', ListCreatePostAPIView.as_view()),
@@ -9,4 +9,5 @@ urlpatterns = [
     path('likes/', ShowLikedPosts.as_view()),
     path('following/', ShowPostsOfFollowing.as_view()),
     path('user/<int:pk>/', ShowPostOfGivenUser.as_view()),
+    path('me/', ShowPostOfMe.as_view()),
 ]

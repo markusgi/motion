@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Post(models.Model):
-    title = models.CharField(max_length=60)
+    title = models.CharField(max_length=60, blank=True)
     text_content = models.CharField(max_length=200)
     created = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(to=settings.AUTH_USER_MODEL, related_name='posts_from_this_user', on_delete=models.CASCADE, null=True)

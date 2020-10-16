@@ -37,8 +37,8 @@ const NewPostModal = () => {
                 <section>
                     {/* <input type="img">
                         <img src={postImage} alt=""></img>
-                    </input> */}
-                    <input type="file"/>
+                    </input> 
+                    <input type="file"/>*/}
                 </section>
                 <ButtonPost onClick={submitPost} >
                     <img style={{color: "white", zIndex: "4", backgroundColor: "white"}} alt="" src={{paperPlane}}></img>
