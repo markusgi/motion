@@ -1,8 +1,10 @@
- export const postAction = (content) => async (dispatch, getState) => {
+import baseUrl from "../../helper/dev";
+
+export const postAction = (content) => async (dispatch, getState) => {
     const { token } = localStorage;
     const preContent = {content};
     const payload = preContent.content;
-    const url = "https://docker-markus.propulsion-home.ch/backend/api/social/posts/"
+    const url = `${baseUrl}backend/api/social/posts/`;
     const config = {
         method: "POST",
         headers: new Headers ({

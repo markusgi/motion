@@ -1,6 +1,8 @@
- export const feedAction = () => async (dispatch, getState) => {
+import baseUrl from "../../helper/dev";
+
+export const feedAction = () => async (dispatch, getState) => {
     const { token } = localStorage;
-    const url = "https://docker-markus.propulsion-learn.ch/backend/api/social/posts/"
+    const url = `${baseUrl}backend/api/social/posts/`;
     const config = {
         method: "GET",
         headers: new Headers ({

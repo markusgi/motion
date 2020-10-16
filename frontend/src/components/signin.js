@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
+import baseUrl from "../helper/dev";
 
 import { authAction } from '../store/actionTypes/authAction';
 
@@ -29,7 +30,7 @@ export const SignIn = () => {
         };
         console.log(config)
         //then do the fetch
-        fetch("https://docker-markus.propulsion-learn.ch/backend/api/auth/token/", config)
+        fetch(`${baseUrl}backend/api/auth/token/`, config)
             .then((Response) => Response.json())
             .then((data) => {
                 dispatch(authAction(data.access));

@@ -11,10 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/helper/dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/requirements.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/dev.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/dev.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/feedAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/feedAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/postAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/postAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/actions/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/actions/userAction.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +144,7 @@
       <updated>1602597279511</updated>
       <workItem from="1602597280587" duration="18303000" />
       <workItem from="1602745212105" duration="22894000" />
-      <workItem from="1602831981165" duration="13901000" />
+      <workItem from="1602831981165" duration="17554000" />
     </task>
     <servers />
   </component>
@@ -178,32 +180,33 @@
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="766" y="-756" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602753979217" />
-    <state width="1836" height="267" key="GridCell.Tab.0.bottom" timestamp="1602848806152">
+    <state width="1836" height="267" key="GridCell.Tab.0.bottom" timestamp="1602857503885">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1836" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602848806152" />
-    <state width="1836" height="267" key="GridCell.Tab.0.center" timestamp="1602848806152">
+    <state width="1836" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602857503885" />
+    <state width="1836" height="267" key="GridCell.Tab.0.center" timestamp="1602857503885">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1836" height="267" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602848806152" />
-    <state width="1836" height="267" key="GridCell.Tab.0.left" timestamp="1602848806152">
+    <state width="1836" height="267" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602857503885" />
+    <state width="1836" height="267" key="GridCell.Tab.0.left" timestamp="1602857503885">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1836" height="267" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602848806152" />
-    <state width="1836" height="267" key="GridCell.Tab.0.right" timestamp="1602848806152">
+    <state width="1836" height="267" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602857503885" />
+    <state width="1836" height="267" key="GridCell.Tab.0.right" timestamp="1602857503885">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1836" height="267" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602848806152" />
+    <state width="1836" height="267" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602857503885" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602840412195">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840412195" />
-    <state x="480" y="-893" key="SettingsEditor" timestamp="1602763894071">
+    <state x="480" y="-893" key="SettingsEditor" timestamp="1602857472070">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="480" y="-893" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602763894071" />
+    <state x="480" y="-893" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602857472070" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/docker_motion$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1602848474138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/docker_motion$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1602857473748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>
