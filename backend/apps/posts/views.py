@@ -1,3 +1,5 @@
+from django.contrib.auth import get_user_model
+from django.core.mail import send_mail
 from django.core.serializers import get_serializer
 from django.shortcuts import render
 from rest_framework import status
@@ -5,7 +7,7 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 from rest_framework.permissions import IsAuthenticated
 
 from rest_framework.response import Response
-
+User = get_user_model()
 from apps.posts.models import Post
 from apps.posts.permissions import IsAuthorOrReadOnly
 from apps.posts.serializers import PostSerializer, PostSmallSerializer
@@ -17,6 +19,7 @@ class ListCreatePostAPIView(ListCreateAPIView):
     permission_classes = [IsAuthorOrReadOnly]
 
     def post(self, request, *args, **kwargs):
+        dauser = User.objects.get(id=1)
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save(author=request.user)

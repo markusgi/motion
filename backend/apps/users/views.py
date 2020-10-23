@@ -1,6 +1,7 @@
 from django.contrib.auth import get_user_model
+from django.core.mail import send_mail
 
-from rest_framework.generics import ListCreateAPIView, GenericAPIView, RetrieveAPIView
+from rest_framework.generics import ListCreateAPIView, GenericAPIView, RetrieveAPIView, RetrieveUpdateAPIView
 from rest_framework.response import Response
 from django.contrib.auth.hashers import make_password
 
@@ -17,7 +18,7 @@ class ListCertainUser(RetrieveAPIView):
     lookup_field = 'id'
 
 
-class RetrieveLoggedInUser(RetrieveAPIView):
+class RetrieveUpdateLoggedInUser(RetrieveUpdateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = []
@@ -33,19 +34,12 @@ class ListCreateUserAPIView(ListCreateAPIView):
 
     def perform_create(self, serializer):
         serializer.save(password=make_password(self.request.data['password']))
-        #new_user.set_password(new_user.password)
-        #new_user.save()
-
-        # newUser = json.loads(request.body)
-        # user = User(**newUser)
-        # user.set_password(request.data['password'])
-        # user.save()
-        # serializer = self.get_serializer(user)
 
 
 class FollowUserView(GenericAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
+    permission_classes = []
     lookup_field = 'id'
 
     def patch(self, request, *args, **kwargs):
@@ -58,6 +52,13 @@ class FollowUserView(GenericAPIView):
                 obj.followers.add(user)
         serializer = self.get_serializer(obj, data=request.data, partial=True)
         serializer.is_valid(raise_exception=True)
+        send_mail(
+            'New Follower bro',
+            'You are being followed',
+            'jslabdara@gmail.com',
+            ['{}'.format(obj.user.email)],
+            fail_silently=False,
+        )
         obj.save()
         return Response(serializer.data)
 
@@ -67,7 +68,7 @@ class GetAllFollowers(ListCreateAPIView):
     serializer_class = UserSerializerSmall
     permission_classes = []
 
-    def get_queryset(self):
+    def get_object(self):
         return self.request.user.followers.all()
 
 
@@ -76,5 +77,5 @@ class GetAllFollowees(ListCreateAPIView):
     serializer_class = UserSerializerSmall
     permission_classes = []
 
-    def get_queryset(self):
+    def get_object(self):
         return self.request.user.followees.all()
