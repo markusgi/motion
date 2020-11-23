@@ -19,12 +19,18 @@ class ListCreatePostAPIView(ListCreateAPIView):
     permission_classes = [IsAuthorOrReadOnly]
 
     def post(self, request, *args, **kwargs):
-        dauser = User.objects.get(id=1)
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save(author=request.user)
         #post = Post.objects.get(pk=serializer.data.get('id'))
         #detailed_serializer = CookbookDetailSerializer(cookbook)
+        send_mail(
+            'New Post bro',
+            'You have a new post',
+            'jslabdara@gmail.com',
+            ['markusgig@gmail.com'],
+            fail_silently=False,
+        )
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
 

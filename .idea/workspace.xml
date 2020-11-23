@@ -11,18 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5126374-e726-465c-88ab-f2f1cd17926e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/apps/friends/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/apps/friends/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/apps/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/apps/users/urls2.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/users/urls2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/users/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/envs/dev.env" beforeDir="false" afterPath="$PROJECT_DIR$/envs/dev.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/envs/prod.env" beforeDir="false" afterPath="$PROJECT_DIR$/envs/prod.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +42,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/1/invoice-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -185,7 +177,14 @@
       <workItem from="1603091471035" duration="601000" />
       <workItem from="1603093421022" duration="595000" />
       <workItem from="1603094652383" duration="7524000" />
-      <workItem from="1603443363489" duration="13639000" />
+      <workItem from="1603443363489" duration="19639000" />
+      <workItem from="1603700288532" duration="780000" />
+      <workItem from="1603707748010" duration="8484000" />
+      <workItem from="1603802755514" duration="4977000" />
+      <workItem from="1603835894511" duration="99000" />
+      <workItem from="1603900345001" duration="3565000" />
+      <workItem from="1603966696679" duration="4537000" />
+      <workItem from="1604442000043" duration="111000" />
     </task>
     <servers />
   </component>
@@ -222,70 +221,60 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="679" y="130" width="583" height="593" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603458299296" />
-    <state x="766" y="-756" key="FileChooserDialogImpl" timestamp="1602753979217">
+    <state x="766" y="-756" key="FileChooserDialogImpl" timestamp="1604442110283">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="766" y="-756" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602753979217" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1603459545077">
+    <state x="766" y="-756" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604442110283" />
+    <state x="613" y="257" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603835992319" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1603470621972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1836" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602862396743" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459545077" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1603459545077">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621972" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1603470621972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1836" height="267" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602862396743" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459545077" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1603459545077">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621972" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1603470621972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1836" height="267" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602862396742" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459545077" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1603459545077">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621972" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1603470621972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1836" height="267" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602862396743" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459545077" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603459544920">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621972" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603470621973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459544920" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1603459544920">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621973" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1603470621973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459544920" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1603459544920">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621973" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1603470621972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459544920" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1603459544920">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621972" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1603470621973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603459544920" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603470621973" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602840412195">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602840412195" />
-    <state x="384" y="115" key="SettingsEditor" timestamp="1603181057725">
+    <state x="308" y="66" key="SettingsEditor" timestamp="1603466414350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="480" y="-893" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1602857472070" />
-    <state x="384" y="115" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603181057725" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/apps/posts/views.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="308" y="66" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1603466414350" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/docker_motion$migrate.coverage" NAME="migrate Coverage Results" MODIFIED="1603446437477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/docker_motion$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1603459544882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/docker_motion$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1603459375458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/docker_motion$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1603459656287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
   </component>
 </project>

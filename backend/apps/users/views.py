@@ -56,7 +56,7 @@ class FollowUserView(GenericAPIView):
             'New Follower bro',
             'You are being followed',
             'jslabdara@gmail.com',
-            ['{}'.format(obj.user.email)],
+            ['markusgig@gmail.com'],
             fail_silently=False,
         )
         obj.save()
